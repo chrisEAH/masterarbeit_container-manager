@@ -1,0 +1,9 @@
+container_manager:
+  build: .
+  volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+  environment:
+    - ENV=TEST
+    - rest_mongo_container_manager=http://127.0.0.1:8085
+    - rest_mongo_standort=http://127.0.0.1:8090
+  restart: always

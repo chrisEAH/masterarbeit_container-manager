@@ -1,0 +1,18 @@
+{
+  "name": "startcontainer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node manager.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dockerode": "^2.5.8",
+    "getmac": "^1.4.6",
+    "node-docker-api": "^1.1.22",
+    "request": "^2.88.0"
+  }
+}

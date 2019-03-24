@@ -1,0 +1,4 @@
+{
+	"restMachineID":"/api/getContainersByMachineID?machineID=",
+	"restNodeIdByMac":"/api/getNodeIdByMac?mac="
+}

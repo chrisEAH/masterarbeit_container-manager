@@ -1,0 +1,2 @@
+docker build -t container-manager:latest . --no-cache
+docker run --name container-manager -v //var/run/docker.sock://var/run/docker.sock localhost:5000/container-manager npm start http://10.17.115.37:6666
